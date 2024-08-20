@@ -38,7 +38,7 @@ export const Navbar = () => {
             <a href="#calltoaction" className="text-opacity-60 text-white hover:text-opacity-100 transition">
               Call to Action
             </a>
-            <button className="bg-white py-2 px-4 rounded-lg">Get for free</button>
+            <button className="bg-white py-2 px-4 rounded-lg">Apply</button>
           </nav>
           {/* Sidebar for mobile */}
           <div 
@@ -50,7 +50,7 @@ export const Navbar = () => {
     <a href="#project" className="block py-2" onClick={toggleSidebar}>Project Showcase</a>
     <a href="#pricing" className="block py-2" onClick={toggleSidebar}>Pricing</a>
     <a href="#calltoaction" className="block py-2" onClick={toggleSidebar}>Call to Action</a>
-    <button className="bg-white text-black py-2 px-4 rounded-lg mt-4 block mx-auto">Get for free</button>
+    <button className="bg-white text-black py-2 px-4 rounded-lg mt-4 block mx-auto">Apply</button>
     <button onClick={toggleSidebar} className=" text-white py-2 px-4 rounded-lg mt-4 block mx-auto underline">Close Menu</button>
   </div>
 </div>
