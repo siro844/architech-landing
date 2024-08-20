@@ -62,7 +62,7 @@ export const Hero = () => {
           {showForm && (
             <div className="mt-10">
               <iframe
-                src="https://3xzlhnjfyx4.typeform.com/to/dGW0v4fr"
+                src="https://tally.so/embed/mOLE2M?hideTitle=1"
                 width="100%"
                 height="500px"
                 className="border-none"
