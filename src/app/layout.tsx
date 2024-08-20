@@ -7,7 +7,7 @@ const dmSans = DM_Sans({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "ArchiTech Landing Page",
-  description: "Celebrate the joy of design with a website tailored to help architects create and refine their floorplans, turning visions into reality",
+  description: "Celebrate the joy of design with a platform tailored to help architects create and refine their floorplans, turning visions into reality",
 };
 
 export default function RootLayout({
