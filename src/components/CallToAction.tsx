@@ -22,8 +22,21 @@ export const CallToAction = () => {
     <section id="calltoaction">
     <div className="bg-black text-white py-[72px] sm:py-24 text-center" ref={containerRef}>
       <div className="container max-w-xl relative">
-      <motion.div style={{translateY}}><Image src={sofaImage} alt="Bed Image" className="absolute top-6 left-[calc(100%+36px)]"/></motion.div>
-      <motion.div style={{translateY}}><Image src={bedImage} alt="Bed Image" className="absolute -top-[120px] right-[calc(100%+24px)]"/></motion.div>
+      <motion.div style={{ translateY }}>
+  <Image 
+    src={sofaImage} 
+    alt="Image" 
+    className="absolute top-6 left-[calc(100%+36px)] hidden sm:block" 
+  />
+</motion.div>
+<motion.div style={{ translateY }}>
+  <Image 
+    src={bedImage} 
+    alt="Image" 
+    className="absolute -top-[120px] right-[calc(100%+24px)] hidden sm:block" 
+  />
+</motion.div>
+
         <h2 className="font-bold text-5xl tracking-tighter sm:text-6xl">Get instant access</h2>
         <p className="text-xl text-white/70 mt-5">
         Unlock exclusive access and elevate your experience—get started today!
