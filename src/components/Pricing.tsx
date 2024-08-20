@@ -17,7 +17,7 @@ const pricingTiers = [
   {
     title: "Basic",
     monthlyPrice: "30",
-    buttonText: "Sign up now",
+    buttonText: "Get Started",
     popular: true,
     inverse: true,
     features: [
