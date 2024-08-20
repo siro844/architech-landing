@@ -56,7 +56,7 @@ export const Hero = () => {
               onClick={() => setShowForm(!showForm)}
               className="bg-white text-black py-3 px-5 rounded-lg font-medium"
             >
-              {showForm ? 'Hide Form' : 'Apply for Beta Access!'}
+              {showForm ? 'Fill your Details Below' : 'Apply for Beta Access!'}
             </button>
           </div>
           {showForm && (
